@@ -4,11 +4,15 @@
   @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
   @Group              : 
   @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
-  @Last Modified On   : 05/11/2019, 10:45:10 pm
+  @Last Modified On   : 05/11/2019, 11:20:37 pm
   @Modification Log   : 
   Ver       Date            Author      		    Modification
   1.0    05/11/2019   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
 -->
 <template>
-    <span>{DisplayMessage}</span>
+    <lightning-card  title="Hello">
+        <lightning-button label="New" slot="actions"></lightning-button>
+        <p class="slds-p-horizontal_small">{DisplayMessage}</p>
+        <p slot="footer">Card Footer</p>
+    </lightning-card>
 </template>
